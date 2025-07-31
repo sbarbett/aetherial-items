@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetherial Items - Diablo Style Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aetherial Items</h1>
+            <p>A compendium of end-game items from the Aether</p>
+        </header>
+        
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search items..." class="search-box">
+            <select id="typeFilter" class="filter-select">
+                <option value="">All Types</option>
+                <option value="weapon">Weapons</option>
+                <option value="armor">Armor</option>
+                <option value="jewelry">Jewelry</option>
+                <option value="treasure">Treasure</option>
+                <option value="materia">Materia</option>
+                <option value="container">Container</option>
+                <option value="light">Light</option>
+            </select>
+        </div>
+        
+        <div id="itemGrid" class="item-grid">
+            <!-- Items will be dynamically loaded here -->
+        </div>
+        
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading items...</p>
+        </div>
+        
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>No items found matching your criteria.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 

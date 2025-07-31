@@ -1,0 +1,13 @@
+---
+services:
+  area-to-json:
+    build: .
+    environment:
+      - AREA_FILE_PATH=${AREA_FILE_PATH}
+    volumes:
+      # Mount the output directory to store JSON files
+      - ../app/json:/output
+      # Mount the area file directory
+      - ${AREA_FILE_PATH}:/area:ro
+    restart: unless-stopped
+    container_name: area-to-json 
