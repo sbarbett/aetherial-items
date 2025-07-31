@@ -23,7 +23,7 @@ Converts MUD area file objects to JSON format using a C program that runs every 
 ## Configuration
 
 - **Input:** `/area/somearea.are` (mounted from host)
-- **Output:** `../app/json`
+- **Output:** `../docs/json`
 - **Schedule:** Every 5 minutes via cron
 - **Error logs:** Up to 3 timestamped files kept
 

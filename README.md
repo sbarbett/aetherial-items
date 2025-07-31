@@ -7,7 +7,7 @@ A toolchain for parsing and displaying legendary ("aetherial") items from Acropo
 This project consists of two main components:
 
 1. **Parser Container** (`src/`) - A Docker container that reads MUD area file and extracts aetherial items into structured JSON
-2. **Web Viewer** (`app/`) - An interactive web application that displays the parsed items as cards
+2. **Web Viewer** (`docs/`) - An interactive web application that displays the parsed items as cards
 
 ## Quick Start
 
@@ -20,7 +20,7 @@ docker-compose up -d
 
 ### 2. View Items
 ```bash
-cd app
+cd docs
 python3 -m http.server 8000
 # Open http://localhost:8000
 ```
@@ -32,7 +32,7 @@ python3 -m http.server 8000
 │   ├── area_to_json.c      # C program that parses area files
 │   ├── docker-compose.yml  # Container orchestration
 │   └── README.md           # Parser documentation
-└── app/                    # Web viewer application
+└── docs/                   # Web viewer application
     ├── index.html          # Main web interface
     ├── script.js           # Interactive functionality
     ├── styles.css          # Theming
@@ -43,4 +43,4 @@ python3 -m http.server 8000
 ## Documentation
 
 - [Parser Documentation](src/README.md) - Details on the area file parser
-- [Web App Documentation](app/README.md) - Details on the web interface 
+- [Web App Documentation](docs/README.md) - Details on the web interface 

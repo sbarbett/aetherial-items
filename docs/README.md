@@ -2,6 +2,8 @@
 
 A web application that displays items from the Aether JSON file in a Diablo-style card format. The application filters items to show only those with at least two wear flags.
 
+**🌐 Live Demo:** This application is hosted on GitHub Pages and automatically updates when the JSON data changes.
+
 ## Features
 
 - **Diablo-style Item Cards**: Beautiful, dark-themed item cards
@@ -10,8 +12,8 @@ A web application that displays items from the Aether JSON file in a Diablo-styl
 
 ## How to Use
 
-1. **Setup**: Ensure the `json/aether.json` file is in the `json/` directory relative to the app folder
-2. **Run**: Start the server from the app directory: `cd app && python3 -m http.server 8000`
+1. **Setup**: Ensure the `json/aether.json` file is in the `json/` directory relative to the docs folder
+2. **Run**: Start the server from the docs directory: `cd docs && python3 -m http.server 8000`
 3. **Open**: Go to `http://localhost:8000` in your web browser
 4. **Browse**: View all items
 5. **Search**: Use the search box to find specific items
@@ -70,13 +72,26 @@ To run locally, you can use any simple HTTP server:
 
 ```bash
 # Using Python 3
-python -m http.server 8000
+cd docs && python -m http.server 8000
 
 # Using Node.js (if you have http-server installed)
-npx http-server
+cd docs && npx http-server
 
 # Using PHP
-php -S localhost:8000
+cd docs && php -S localhost:8000
 ```
 
-Then open `http://localhost:8000` in your browser. 
+Then open `http://localhost:8000` in your browser.
+
+## GitHub Pages Hosting
+
+This application is configured to be hosted on GitHub Pages using the `docs/` directory as the source. The application will automatically update when the `json/aether.json` file is updated by the parser container.
+
+### Setup for GitHub Pages:
+1. Go to your repository Settings → Pages
+2. Select "Deploy from a branch"
+3. Choose your main branch
+4. Select "/docs" as the folder
+5. Click Save
+
+The application will be available at: `https://[your-username].github.io/aetherial-items/` 

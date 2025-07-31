@@ -17,13 +17,13 @@ if ! git rev-parse --git-dir > /dev/null 2>&1; then
 fi
 
 # Check if aether.json has been modified
-if git diff --quiet app/json/aether.json; then
+if git diff --quiet docs/json/aether.json; then
     echo "No changes detected in aether.json"
     exit 0
 fi
 
 # Stage the changes
-git add app/json/aether.json
+git add docs/json/aether.json
 
 # Create commit with timestamp
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
