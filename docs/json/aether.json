@@ -623,6 +623,69 @@
     }
   },
   {
+    "vnum": 90030,
+    "name": "lumberjacks axe",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "burnproof no_restring",
+    "material": "steel",
+    "condition": 100,
+    "weight": 7,
+    "cost": 650,
+    "short_descr": "{w<{D|{y- {RL{Du{Rm{Db{Re{Dr{Rj{Da{Rc{Dk{W'{Rs {LAxe {y-{D|{w>{x",
+    "description": "{nA heavy, well-used axe lies here, its broad iron head scarred with deep nicks and its hickory haft wrapped in fraying leather strips, clearly the trusted tool of a seasoned woodsman.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 600
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 23
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 22
+      }
+    ],
+    "values": {
+      "weapon_type": "axe",
+      "number_of_dice": 12,
+      "type_of_dice": 27,
+      "damage_type": "chop",
+      "flags": ["sharp", "two_hands"]
+    }
+  },
+  {
     "vnum": 90029,
     "name": "dynamo core",
     "type": "armor",
