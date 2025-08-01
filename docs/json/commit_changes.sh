@@ -29,4 +29,7 @@ git add docs/json/aether.json
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 git commit -m "auto: update aether.json - $TIMESTAMP"
 
+# Push the changes to the remote repository
+git push
+
 echo "Successfully committed changes to aether.json at $TIMESTAMP" 
