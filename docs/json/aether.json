@@ -1,0 +1,2625 @@
+{
+  "area": {
+    "name": "Unknown",
+    "file": "/area/aether.are",
+    "credits": "Unknown",
+    "builders": "Unknown"
+  },
+  "objects": [
+  {
+    "vnum": 99999,
+    "name": "quest token",
+    "type": "trash",
+    "level": 1,
+    "wear_flags": "take",
+    "extra_flags": "noclone nolocate meltdrop burnproof nouncurse sticky nogive",
+    "material": "unknown",
+    "condition": 100,
+    "weight": 0,
+    "cost": 0,
+    "short_descr": "{MQ{mu{Me{ms{Mt {WToken{x",
+    "description": "A glimmering magenta token is here.",
+    "affects": [
+
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 99998,
+    "name": "shimmering blue gate portal",
+    "type": "portal",
+    "level": 1,
+    "wear_flags": "none",
+    "extra_flags": "glow",
+    "material": "quantum",
+    "condition": 100,
+    "weight": 10000,
+    "cost": 0,
+    "short_descr": "a {Ws{wh{Wi{wm{Wm{we{Wr{wi{Wn{wg {Cblue{x gate",
+    "description": "A {Ws{wh{Wi{wm{Wm{we{Wr{wi{Wn{wg {Cblue{x portal floats gently above the stone floor, its aethereal glow softly pulsing and illuminating the darkness around it with a mysterious azure radiance.",
+    "affects": [
+
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 3072,
+      "v2": 1,
+      "v3": 3038,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 99997,
+    "name": "senzu bean",
+    "type": "food",
+    "level": 1,
+    "wear_flags": "take",
+    "extra_flags": "burnproof",
+    "material": "protein",
+    "condition": 100,
+    "weight": 1,
+    "cost": 25,
+    "short_descr": "{wA {ySenzu {gBean{x",
+    "description": "A small greenish-brown, kidney-shaped bean is on the ground.",
+    "affects": [
+
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 99907,
+    "name": "ravens feather mantle",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take about",
+    "extra_flags": "dark evil magic burnproof no_restring",
+    "material": "feather",
+    "condition": 100,
+    "weight": 1,
+    "cost": 900,
+    "short_descr": "{W.{w/{D: {pRavens{W' {tF{Te{Wa{wt{The{tr {DMantle {D:{w\\{W.{x",
+    "description": "{nAn elegant mantle crafted from countless midnight-black raven feathers lies here, its dark plumes shimmering subtly with whispers of arcane power.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:planeshift"
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 630
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 200
+      }
+    ],
+    "values": {
+      "ac_pierce": 15,
+      "ac_bash": 15,
+      "ac_slash": 15,
+      "ac_exotic": 15,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 99906,
+    "name": "atiesh greatstaff guardian",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "dark evil magic burnproof no_restring",
+    "material": "fel",
+    "condition": 100,
+    "weight": 3,
+    "cost": 1550,
+    "short_descr": "{l|{L'{Y\" {sA{St{Wi{we{Ss{sh{D, {DGreatstaff {Wof the {nG{Nua{Wr{Yd{Nia{nn {Y\"{L'{l|{x",
+    "description": "{nA majestic staff of immense power floats gently here, its intricate design crowned by the carved head of a raven, pulsing faintly with mysterious arcane energies.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 900
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 600
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 450
+      }
+    ],
+    "values": {
+      "weapon_type": "spear",
+      "number_of_dice": 16,
+      "type_of_dice": 19,
+      "damage_type": "magic",
+      "flags": ["two_hands", "shocking"]
+    }
+  },
+  {
+    "vnum": 99905,
+    "name": "gheeds charm",
+    "type": "jewelry",
+    "level": 126,
+    "wear_flags": "take neck",
+    "extra_flags": "magic burnproof no_restring",
+    "material": "wood",
+    "condition": 100,
+    "weight": 1,
+    "cost": 550,
+    "short_descr": "{Y.{G${Y'{y. {wG{mh{Me{Ye{Cd{c'{Bs {DCharm {y.{Y'{G${Y.{x",
+    "description": "{nA worn wooden charm etched with enigmatic symbols lies here, its presence subtly radiating an aura of luck and insight.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "insight",
+        "modifier": 5000
+      },
+      {
+        "type": "normal",
+        "location": "prosperity",
+        "modifier": 5000
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "ac",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 99904,
+    "name": "dagger muramasa",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "hum evil burnproof no_restring",
+    "material": "steel",
+    "condition": 100,
+    "weight": 1,
+    "cost": 1500,
+    "short_descr": "{Do{y={W]{w= {WA D{wa{Wg{wg{We{wr{W Inscribed{D, \"{GM{gur{wa{Wm{gas{Ga{D\" {w={W>{x",
+    "description": "{nA sinister dagger gleams darkly here, its razor-edged blade emanating a cold, unsettling presence.{x",
+    "affects": [
+      {
+        "type": "flag",
+        "location": "FB:none",
+        "modifier": -1, "extra": "affect2:talon"
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -14
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 225
+      }
+    ],
+    "values": {
+      "weapon_type": "dagger",
+      "number_of_dice": 16,
+      "type_of_dice": 20,
+      "damage_type": "stab",
+      "flags": ["vampiric", "sharp", "vorpal"]
+    }
+  },
+  {
+    "vnum": 99903,
+    "name": "katana masamune",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "hum bless burnproof no_restring",
+    "material": "steel",
+    "condition": 100,
+    "weight": 1,
+    "cost": 1600,
+    "short_descr": "{Do{y={W]{w= {WA K{wa{Wt{wa{Wn{wa{W Inscribed{D, \"{RM{ras{wa{Wm{run{Re{D\" {w==={W>{x",
+    "description": "{nA legendary katana, its finely-crafted blade shimmering with an aura of noble power, rests solemnly here.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 500
+      }
+    ],
+    "values": {
+      "weapon_type": "sword",
+      "number_of_dice": 16,
+      "type_of_dice": 21,
+      "damage_type": "slice",
+      "flags": ["sharp", "vorpal"]
+    }
+  },
+  {
+    "vnum": 99902,
+    "name": "navi kokiri fairy",
+    "type": "scryer",
+    "level": 126,
+    "wear_flags": "take familiar",
+    "extra_flags": "glow magic burnproof no_restring",
+    "material": "fairy",
+    "condition": 100,
+    "weight": 1,
+    "cost": 750,
+    "short_descr": "{w'{D.{B-{W* {CN{Wa{cv{Ci{D, {GKo{gk{Wi{Gr{gi {YF{ya{Yi{yr{Yy {W*{B-{D.{w'{x",
+    "description": "{nA tiny, glowing ball of cyan light flutters energetically through the air, delicate wings shimmering gently as it darts playfully about.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -25
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 215
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 350
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 73, "extra": "faerie fire"
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 93, "extra": "heal"
+      }
+    ],
+    "values": {
+      "v0": 99998,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 99901,
+    "name": "pipboy emergency stim module",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take gadget",
+    "extra_flags": "hum burnproof no_restring",
+    "material": "gears",
+    "condition": 100,
+    "weight": 1,
+    "cost": 750,
+    "short_descr": "{g[{G({R+{G){g] {WPip{D-{WBoy {RE{rm{Re{rr{Rg{re{Rn{rc{Ry {BSt{bi{Bm {DModule {g[{G({R+{G){g]{x",
+    "description": "{nA battered olive-drab emergency stim module lies abandoned on the ground, its pulsing red LED and dented chrome shell strangely compelling.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "move",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
+      }
+    ],
+    "values": {
+      "ac_pierce": 10,
+      "ac_bash": 10,
+      "ac_slash": 10,
+      "ac_exotic": 10,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 99900,
+    "name": "necronomicon",
+    "type": "treasure",
+    "level": 126,
+    "wear_flags": "take grimoire",
+    "extra_flags": "dark evil burnproof no_restring",
+    "material": "flesh",
+    "condition": 100,
+    "weight": 2,
+    "cost": 750,
+    "short_descr": "{Y|{W={Y| {DThe {yNecronomicon {Y|{W={Y|{x",
+    "description": "{nThe Necronomicon is resting here, an ancient tome bound in cracked fleshlike leather, its pages leaking sickly green light and whispering forbidden secrets.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 750
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 41, "extra": "curse"
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 43, "extra": "hellfire"
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 140
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 150
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90030,
+    "name": "lumberjacks axe",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "burnproof no_restring",
+    "material": "steel",
+    "condition": 100,
+    "weight": 7,
+    "cost": 650,
+    "short_descr": "{w<{D|{y- {RL{Du{Rm{Db{Re{Dr{Rj{Da{Rc{Dk{W'{Rs {LAxe {y-{D|{w>{x",
+    "description": "{nA heavy, well-used axe lies here, its broad iron head scarred with deep nicks and its hickory haft wrapped in fraying leather strips, clearly the trusted tool of a seasoned woodsman.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 600
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 23
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 22
+      }
+    ],
+    "values": {
+      "weapon_type": "axe",
+      "number_of_dice": 12,
+      "type_of_dice": 27,
+      "damage_type": "chop",
+      "flags": ["sharp", "two_hands"]
+    }
+  },
+  {
+    "vnum": 90029,
+    "name": "dynamo core",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take belly",
+    "extra_flags": "glow dark burnproof no_restring",
+    "material": "iron",
+    "condition": 100,
+    "weight": 6,
+    "cost": 700,
+    "short_descr": "{D.{c:{C|{W: {sD{Syn{Wa{wm{So {RC{Wo{rr{Re {W:{C|{c:{D.{x",
+    "description": "{nHere lies circular medallion of hammered bronze and dark iron, its surface etched with concentric rings that pulse with an inner light.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 23
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 23
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 700
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 350
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 350
+      }
+    ],
+    "values": {
+      "ac_pierce": 24,
+      "ac_bash": 25,
+      "ac_slash": 27,
+      "ac_exotic": 24,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90028,
+    "name": "ring zealotry",
+    "type": "jewelry",
+    "level": 126,
+    "wear_flags": "take finger",
+    "extra_flags": "hum magic burnproof no_restring",
+    "material": "metal",
+    "condition": 100,
+    "weight": 2,
+    "cost": 700,
+    "short_descr": "{L-{D)({L- {YR{yi{Yng {Wof {pZe{Pal{Wo{Pt{pry {L-{D)({L-{x",
+    "description": "{nA slender band forged from interlocking bronze and silver scales, each etched with tiny scenes of contests and duels, glimmers here.{x",
+    "affects": [
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:planeshift"
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 31
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 33
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 830
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 400
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90027,
+    "name": "aegis sun",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take shield",
+    "extra_flags": "glow burnproof no_restring",
+    "material": "light",
+    "condition": 100,
+    "weight": 5,
+    "cost": 650,
+    "short_descr": "{W-{s({S-{s){W- {GA{ge{Gg{gi{Gs {Wof the {YS{yu{Yn {W-{s({S-{s){W-{x",
+    "description": "{nA broad, circular shield of burnished bronze, its face carved with a radiant sunburst lies here. Inlaid at its center is a convex sunstone that pulses like a captive flare.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 710
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 19
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 150
+      }
+    ],
+    "values": {
+      "ac_pierce": 21,
+      "ac_bash": 20,
+      "ac_slash": 21,
+      "ac_exotic": 19,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90026,
+    "name": "victors ascent winged sandal",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take feet",
+    "extra_flags": "hum bless burnproof no_restring",
+    "material": "feather",
+    "condition": 100,
+    "weight": 1,
+    "cost": 600,
+    "short_descr": "{Y={T^{W\\{w\\ {DThe {BV{bi{Bct{bo{Br{D'{Bs {WA{ws{Wc{we{Wn{wt {w/{W/{T^{Y={x",
+    "description": "{nA pair of winged sandals fashioned from dove-white leather and burnished gold are floating here, each strap embossed with a stylized laurel leaf motif.{x",
+    "affects": [
+      {
+        "type": "flag",
+        "location": "FA:none",
+        "modifier": -1, "extra": "affect:flying"
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "move",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 18
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 18
+      }
+    ],
+    "values": {
+      "ac_pierce": 21,
+      "ac_bash": 20,
+      "ac_slash": 19,
+      "ac_exotic": 20,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90025,
+    "name": "shroud first dawn",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take neck",
+    "extra_flags": "glow bless burnproof no_restring",
+    "material": "silk",
+    "condition": 100,
+    "weight": 3,
+    "cost": 600,
+    "short_descr": "{n.{N\\{W^{N/{n. {WSh{wr{co{Cud {Wof the {DFirst {YDawn {n.{N\\{W^{N/{n.{x",
+    "description": "{nA lightweight veil of dawn-tinted silk drifts like morning mist here, its threads shifting from pale rose to gold as it catches the light.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 16
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 17
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 900
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:light"
+      }
+    ],
+    "values": {
+      "ac_pierce": 20,
+      "ac_bash": 20,
+      "ac_slash": 20,
+      "ac_exotic": 20,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90024,
+    "name": "circlet embers",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take head",
+    "extra_flags": "glow burnproof no_restring",
+    "material": "flame",
+    "condition": 100,
+    "weight": 4,
+    "cost": 600,
+    "short_descr": "{D.{N^{Y-{n. {DCirclet {Wof {RE{Dm{Rb{De{Rr{Ds {n.{Y-{N^{D.{x",
+    "description": "{nA delicate circlet forged from scorched gold is resting here, its band fragmented like a sunburst struck by lightning.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 450
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 450
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 34
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 24
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:fire"
+      }
+    ],
+    "values": {
+      "ac_pierce": 26,
+      "ac_bash": 26,
+      "ac_slash": 21,
+      "ac_exotic": 26,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90023,
+    "name": "palladic cincture",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take waist",
+    "extra_flags": "hum dark burnproof no_restring",
+    "material": "unknown",
+    "condition": 100,
+    "weight": 8,
+    "cost": 650,
+    "short_descr": "{D={R-{D= {YP{La{Yl{Ll{Ya{Ld{Yi{Lc {WC{win{Dc{wtu{Wre {D={R-{D={x",
+    "description": "{nA coiled belt of dark, hammered iron lies here, its segmented plates embossed with clenched fists and ancient Greek runes. The metal faintly pulses as if quenched in the waters of Styx.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 650
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 350
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 24
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 22
+      }
+    ],
+    "values": {
+      "ac_pierce": 18,
+      "ac_bash": 18,
+      "ac_slash": 18,
+      "ac_exotic": 17,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90022,
+    "name": "zweihander forged redeemer sword",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "glow hum bless burnproof no_restring",
+    "material": "light",
+    "condition": 100,
+    "weight": 10,
+    "cost": 1000,
+    "short_descr": "{Y@{y={D[{w={W A {WZ{wwe{Di{whan{Wder Forged{D, \"{nR{Ned{We{Ye{Nm{ner{D\" {w=={W>>{x",
+    "description": "{nA colossal sword lies here, its broad blade of polished steel seems to emanate a soft, silvery glow, the edges inscribed with faint, interlocking runes. Its hilt is capped by a crossguard sculpted into outstretched wings, each set with a crystal.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 102, "extra": "lightning bolt"
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 1500
+      }
+    ],
+    "values": {
+      "weapon_type": "sword",
+      "number_of_dice": 17,
+      "type_of_dice": 21,
+      "damage_type": "pulse",
+      "flags": ["flaming", "two_hands", "shocking", "purify"]
+    }
+  },
+  {
+    "vnum": 90021,
+    "name": "sengirs orb",
+    "type": "materia",
+    "level": 126,
+    "wear_flags": "take materia",
+    "extra_flags": "glow evil burnproof no_restring",
+    "material": "crystal",
+    "condition": 100,
+    "weight": 4,
+    "cost": 800,
+    "short_descr": "{T({D.{t*{D.{T) {gS{Ge{gng{Gi{gr{D'{gs {WO{wr{Wb {T({D.{t*{D.{T){x",
+    "description": "{nA smoky crystal sphere veined with pulsating azure light floats here, its surface roiling with shadow and cold luminescence.{x",
+    "affects": [
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:iceshield"
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 27
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 26
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -14
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 200
+      }
+    ],
+    "values": {
+      "charges": 0,
+      "spell": "energy drain",
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90020,
+    "name": "eyes betrayer",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take face",
+    "extra_flags": "glow evil burnproof no_restring",
+    "material": "essence",
+    "condition": 100,
+    "weight": 4,
+    "cost": 700,
+    "short_descr": "{ro{D.{RO {NEyes {Wof the {MB{De{Mt{Dr{Ma{Dy{Me{Dr {RO{D.{ro{x",
+    "description": "{nTwin crystalline orbs of smoky crimson light are suspended in midair, their cracked irises swirling with a faint, sorrowful glow.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 31
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 32
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 500
+      },
+      {
+        "type": "flag",
+        "location": "FA:none",
+        "modifier": -1, "extra": "affect:infrared"
+      }
+    ],
+    "values": {
+      "ac_pierce": 28,
+      "ac_bash": 30,
+      "ac_slash": 27,
+      "ac_exotic": 30,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90019,
+    "name": "obsidian gauntlets",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take hands",
+    "extra_flags": "dark evil burnproof no_restring",
+    "material": "obsidian",
+    "condition": 100,
+    "weight": 5,
+    "cost": 700,
+    "short_descr": "{s^{S^{s_ {DObs{widi{Wan G{waun{Dtlets {s_{S^{s^{x",
+    "description": "{nA pair of obsidian gauntlets rests here, their dark plates gleaming with an inner sheen and etched with faint silvery runes.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 600
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 27
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 26
+      }
+    ],
+    "values": {
+      "ac_pierce": 30,
+      "ac_bash": 28,
+      "ac_slash": 30,
+      "ac_exotic": 27,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90018,
+    "name": "sanguine quill",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "glow evil burnproof no_restring",
+    "material": "feather",
+    "condition": 100,
+    "weight": 3,
+    "cost": 800,
+    "short_descr": "{R'{D|{r. {DThe {rS{Ra{rng{Rui{rn{Re {WQ{wui{Wll {r.{D|{R'{x",
+    "description": "{nA quill rests here, its shaft carved from polished ebony and inlaid with silver runes, the feathered end dyed a deep crimson and the nib faintly aglow with arcane energy.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 650
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 80, "extra": "energy syphon"
+      }
+    ],
+    "values": {
+      "weapon_type": "dagger",
+      "number_of_dice": 15,
+      "type_of_dice": 22,
+      "damage_type": "pierce",
+      "flags": ["vampiric", "shocking"]
+    }
+  },
+  {
+    "vnum": 90017,
+    "name": "ravis spellbook",
+    "type": "treasure",
+    "level": 126,
+    "wear_flags": "take grimoire",
+    "extra_flags": "evil magic burnproof no_restring",
+    "material": "flesh",
+    "condition": 100,
+    "weight": 3,
+    "cost": 800,
+    "short_descr": "{s/{W#{s\\ {mRavi{D'{ms {gSpellbook {s/{W#{s\\{x",
+    "description": "{nA gnarled flesh-bound spellbook rests here, its deep crimson cover embossed with twisting silver runes and faint wisps of violet light curling from between its yellowed pages.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 72, "extra": "magic drain"
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 79, "extra": "life drain"
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 35
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 35
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 1500
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 400
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90016,
+    "name": "flower ring",
+    "type": "jewelry",
+    "level": 126,
+    "wear_flags": "take finger",
+    "extra_flags": "glow burnproof no_restring",
+    "material": "flowers",
+    "condition": 100,
+    "weight": 1,
+    "cost": 800,
+    "short_descr": "{G-{g>{W.{Y* {DA {RF{Nl{Yo{Ww{Ye{Rr {WR{wi{Wn{wg {Y*{W.{g<{G-{x",
+    "description": "{nA silver ring woven into a wreath of tiny flowers lies here, its delicate petals intricately detailed.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 26
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90015,
+    "name": "grate guys motley",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take body",
+    "extra_flags": "magic burnproof no_restring",
+    "material": "cloth",
+    "condition": 100,
+    "weight": 3,
+    "cost": 800,
+    "short_descr": "{W_{sY{W_ {nG{Nra{Wt{we {WG{Nuy{ns {RM{Po{Yt{Bl{Ce{Gy {W_{sY{W_{x",
+    "description": "{nA pink-and-white jester's motley patterned with white stars lies here, its soft fabric gently rumpled.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "prosperity",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 18
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 22
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
+      }
+    ],
+    "values": {
+      "ac_pierce": 28,
+      "ac_bash": 26,
+      "ac_slash": 27,
+      "ac_exotic": 30,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90014,
+    "name": "evincars bangle",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take wrist",
+    "extra_flags": "dark evil burnproof no_restring",
+    "material": "flowstone",
+    "condition": 100,
+    "weight": 1,
+    "cost": 750,
+    "short_descr": "{Y<{D({W( {tEv{Ti{tncar{T'{ts {GB{ga{Gn{gg{Gl{ge {W){D){Y>{x",
+    "description": "{nA rigid bangle carved from gleaming flowstone, etched with the Evincar of Raths regal seal and humming with the cold precision of the artificial plane's master.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 35
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 35
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 640
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 570
+      },
+      {
+        "type": "normal",
+        "location": "prosperity",
+        "modifier": 2000
+      },
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:acidshield"
+      }
+    ],
+    "values": {
+      "ac_pierce": 21,
+      "ac_bash": 20,
+      "ac_slash": 25,
+      "ac_exotic": 25,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90013,
+    "name": "apocalypse chime",
+    "type": "treasure",
+    "level": 126,
+    "wear_flags": "take ears",
+    "extra_flags": "dark evil burnproof no_restring",
+    "material": "bronze",
+    "condition": 100,
+    "weight": 1,
+    "cost": 750,
+    "short_descr": "{r:{R:{W*{D. {lA{Lpo{Wc{wa{Wl{Lyp{lse {YC{yh{Yi{ym{Ye {D.{W*{R:{r:{x",
+    "description": "{nA tarnished bronze chime inscribed with eldritch glyphs lies here, faintly vibrating as if tolling the world's end.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 40
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 40
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 280
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 600
+      },
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:lightningshield"
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90012,
+    "name": "wrought iron bull ring",
+    "type": "jewelry",
+    "level": 126,
+    "wear_flags": "take nose",
+    "extra_flags": "hum magic burnproof no_restring",
+    "material": "iron",
+    "condition": 100,
+    "weight": 2,
+    "cost": 800,
+    "short_descr": "{Y={DU{Y= {WA {DWrought{W-{SIron {RB{rull {YR{ying {Y={DU{Y={x",
+    "description": "{nA wrought-iron ring sits here, its dark metal forged into a sturdy septum hoop engraved with subtle horn-like ridges and polished to a muted, gunmetal sheen for both comfort and style.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 1500
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 500
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:acid"
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90011,
+    "name": "mimic spirit",
+    "type": "container",
+    "level": 126,
+    "wear_flags": "take familiar",
+    "extra_flags": "glow magic burnproof no_restring",
+    "material": "ectoplasm",
+    "condition": 100,
+    "weight": 1,
+    "cost": 800,
+    "short_descr": "{D\\{nW{D/ {WA {GM{gi{Nm{Yi{Dc {WS{wp{Wi{wr{Wi{wt {D\\{nW{D/{x",
+    "description": "{nA mimic spirit drifts here in flickering ectoplasm, its ghostly wooden panels rippling before snapping open to reveal a maw of translucent, humming fangs.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "prosperity",
+        "modifier": 10000
+      },
+      {
+        "type": "normal",
+        "location": "insight",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 134, "extra": "slow"
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 139, "extra": "weaken"
+      }
+    ],
+    "values": {
+      "v0": 32000,
+      "v1": 0,
+      "v2": 0,
+      "v3": 32000,
+      "v4": 1
+    }
+  },
+  {
+    "vnum": 90010,
+    "name": "genos finger cannon",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take gadget",
+    "extra_flags": "hum burnproof no_restring",
+    "material": "wood",
+    "condition": 100,
+    "weight": 1,
+    "cost": 750,
+    "short_descr": "{W.{Sx{sX {tG{Te{Yn{Wo{D'{ts {yF{Yi{ynger {DC{Wa{Dn{Wn{Do{Wn {sX{Sx{W.{x",
+    "description": "{nA finger cannon gleams here, a compact wood-and-ivory barrel mounted on a leather-bound forearm holster.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 400
+      }
+    ],
+    "values": {
+      "ac_pierce": 25,
+      "ac_bash": 25,
+      "ac_slash": 25,
+      "ac_exotic": 20,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90009,
+    "name": "smilax vine whip",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "burnproof no_restring",
+    "material": "vine",
+    "condition": 100,
+    "weight": 1,
+    "cost": 750,
+    "short_descr": "{y-{Y\\{y_ {DA {lS{lm{Li{ll{La{lx {RV{ri{Rne {DWhip {y_{Y/{y-{x",
+    "description": "{nA whip coils here, its thick green lash bristling with serrated thorns as it twitches autonamously, eager to snap at the unwary.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 800
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
+      }
+    ],
+    "values": {
+      "weapon_type": "whip",
+      "number_of_dice": 20,
+      "type_of_dice": 16,
+      "damage_type": "sting",
+      "flags": ["acid"]
+    }
+  },
+  {
+    "vnum": 90008,
+    "name": "greaves unwoven destiny",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take legs",
+    "extra_flags": "glow bless burnproof no_restring",
+    "material": "light",
+    "condition": 100,
+    "weight": 1,
+    "cost": 800,
+    "short_descr": "{w,{W.{D/ {DGreaves {Wof {cU{Cn{cw{Co{cv{Ce{cn {YDestiny {D\\{W.{w,{x",
+    "description": "{nThe fatebound legplates of a fallen angel shimmer here, woven with tendrils of light that coil and uncoil.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 2000
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 2000
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 27
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -12
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
+      }
+    ],
+    "values": {
+      "ac_pierce": 30,
+      "ac_bash": 30,
+      "ac_slash": 30,
+      "ac_exotic": 30,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90007,
+    "name": "gallowscar greatblade",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "hum dark evil burnproof no_restring",
+    "material": "obsidian",
+    "condition": 100,
+    "weight": 5,
+    "cost": 800,
+    "short_descr": "{g<{W<{D.{W>{g> {RG{Ma{Rl{Ml{Ro{Mw{Rs{Mc{Ra{Mr{D, {Wthe {DGreatblade {g<{W<{D.{W>{g>{x",
+    "description": "{nAn obsidian greatblade is jutting out of the ground, tainted by countless executions and humming with the promise of grim judgement.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 142, "extra": "Caines Maddness"
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 45
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 44
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 200
+      }
+    ],
+    "values": {
+      "weapon_type": "sword",
+      "number_of_dice": 23,
+      "type_of_dice": 15,
+      "damage_type": "cleave",
+      "flags": ["sharp", "vorpal", "two_hands"]
+    }
+  },
+  {
+    "vnum": 90006,
+    "name": "sabatons unmaking",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take feet",
+    "extra_flags": "hum dark evil burnproof no_restring",
+    "material": "void",
+    "condition": 100,
+    "weight": 5,
+    "cost": 750,
+    "short_descr": "{bv{W^{bv {DSabatons {Wof {BU{bn{cm{Ca{Wk{wi{Dn{Wg {bv{W^{bv{x",
+    "description": "{nA pair of voidforged sabatons stand here, blackened and cracked like cooled lava, with tiny fractures manifesting rifts in the very fabric of space around them.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 1500
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      }
+    ],
+    "values": {
+      "ac_pierce": 27,
+      "ac_bash": 27,
+      "ac_slash": 27,
+      "ac_exotic": 24,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90005,
+    "name": "wardens lantern",
+    "type": "light",
+    "level": 126,
+    "wear_flags": "take nosac",
+    "extra_flags": "glow hum burnproof no_restring",
+    "material": "glass",
+    "condition": 100,
+    "weight": 3,
+    "cost": 750,
+    "short_descr": "{r({Y%{r) {DThe {WWarden{D'{Ws {yLa{Ynt{yern {r({Y%{r){x",
+    "description": "{nA battered wrought-iron lantern lies here, glass cracked and streaked with soot. Its inner light flickers ominously against the encroaching shadows.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "insight",
+        "modifier": 1000
+      },
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:planeshift"
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 115
+      },
+      {
+        "type": "normal",
+        "location": "prosperity",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "ac",
+        "modifier": -14
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -20
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 30
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": -1,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90004,
+    "name": "ashmantle spaulders",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take arms",
+    "extra_flags": "glow magic burnproof no_restring",
+    "material": "leather",
+    "condition": 100,
+    "weight": 2,
+    "cost": 750,
+    "short_descr": "{W[{r**{W] {RAshm{ra{Rntle {DSpaulders {W[{r**{W]{x",
+    "description": "{nAn blackened pair of leather spaulders lie here, their seams glowing with smoldering embers and drifting ash.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 1000
+      },
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:fireshield"
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 29
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 19
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
+      }
+    ],
+    "values": {
+      "ac_pierce": 28,
+      "ac_bash": 28,
+      "ac_slash": 28,
+      "ac_exotic": 29,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90003,
+    "name": "reapers scythe",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "dark evil burnproof no_restring",
+    "material": "souls",
+    "condition": 100,
+    "weight": 3,
+    "cost": 750,
+    "short_descr": "{y/{W^ {DThe {mReaper{M'{ms {DS{wc{Wyt{wh{De {W^{y\\{x",
+    "description": "{nA cold vortex of souls suspends a wicked scythe in the air.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 26
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 26
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 146, "extra": "frost breath"
+      }
+    ],
+    "values": {
+      "weapon_type": "exotic",
+      "number_of_dice": 19,
+      "type_of_dice": 16,
+      "damage_type": "chill",
+      "flags": ["vampiric", "shocking"]
+    }
+  },
+  {
+    "vnum": 90002,
+    "name": "bonecrusher colossus",
+    "type": "weapon",
+    "level": 126,
+    "wear_flags": "take wield",
+    "extra_flags": "glow dark burnproof no_restring",
+    "material": "sediment",
+    "condition": 100,
+    "weight": 4,
+    "cost": 750,
+    "short_descr": "{R={w# {DB{Wo{Dn{We{Dc{Wr{Du{Ws{Dh{We{Dr {Wof the {rColossus {w#{R={x",
+    "description": "{nAn enormous maul forged from the remains of a Dreadborn Colossus is embedded in the ground here, causing everything that surrounds it to tremble.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 50
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 110
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 50
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 125
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 126, "extra": "trembling earth"
+      }
+    ],
+    "values": {
+      "weapon_type": "mace",
+      "number_of_dice": 22,
+      "type_of_dice": 15,
+      "damage_type": "crush",
+      "flags": ["vampiric", "two_hands", "shocking"]
+    }
+  },
+  {
+    "vnum": 90001,
+    "name": "harrowed kings crown",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take head",
+    "extra_flags": "hum dark magic burnproof no_restring",
+    "material": "bone",
+    "condition": 100,
+    "weight": 2,
+    "cost": 750,
+    "short_descr": "{w-{C+{w- {DThe {WHarrowed King{D'{Ws {cCrown {w-{C+{w-{x",
+    "description": "{nA crown is resting here, a jagged circlet of blackened bone and tarnished silver, its onyx tips absorbing the light as faint runes pulse with restless, tortured energy.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 23
+      }
+    ],
+    "values": {
+      "ac_pierce": 23,
+      "ac_bash": 27,
+      "ac_slash": 28,
+      "ac_exotic": 22,
+      "v4": 0
+    }
+  },
+  {
+    "vnum": 90000,
+    "name": "experience token",
+    "type": "trash",
+    "level": 1,
+    "wear_flags": "take",
+    "extra_flags": "noclone nolocate meltdrop burnproof nouncurse sticky no_restring nogive",
+    "material": "unknown",
+    "condition": 100,
+    "weight": 0,
+    "cost": 0,
+    "short_descr": "{YE{yx{Yp{ye{Yr{yi{Ye{yn{Yc{ye {WToken{x",
+    "description": "A glimmering yellow token is here.",
+    "affects": [
+
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  }
+  ]
+}
