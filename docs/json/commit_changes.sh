@@ -18,9 +18,38 @@ fi
 
 # Check if aether.json has been modified
 if git diff --quiet docs/json/aether.json; then
-    echo "No changes detected in aether.json"
-    exit 0
+   echo "No changes detected in aether.json"
+   exit 0
 fi
+
+# Sanity checks for aether.json
+AETHER_FILE="docs/json/aether.json"
+
+# 1. Check if file is empty
+if [ ! -s "$AETHER_FILE" ]; then
+    echo "Error: aether.json is empty"
+    exit 1
+fi
+
+# 2. Check if jq is available
+if ! command -v jq &> /dev/null; then
+    echo "Error: jq is not installed. Please install jq to validate JSON."
+    exit 1
+fi
+
+# 3. Validate JSON format
+if ! jq empty "$AETHER_FILE" 2>/dev/null; then
+    echo "Error: aether.json contains invalid JSON"
+    exit 1
+fi
+
+# 4. Check if "objects" property exists and has at least one object
+if ! jq -e '.objects | length > 0' "$AETHER_FILE" >/dev/null 2>&1; then
+    echo "Error: aether.json must contain an 'objects' property with at least one object"
+    exit 1
+fi
+
+echo "All sanity checks passed. Proceeding with commit..."
 
 # Stage the changes
 git add docs/json/aether.json
