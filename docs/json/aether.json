@@ -94,22 +94,32 @@
     "affects": [
       {
         "type": "normal",
-        "location": "unknown",
-        "modifier": 5000
+        "location": "hitroll",
+        "modifier": 28
       },
       {
         "type": "normal",
-        "location": "prosperity",
-        "modifier": 500
+        "location": "damroll",
+        "modifier": 25
       },
       {
         "type": "normal",
-        "location": "endurance",
-        "modifier": 500
+        "location": "saves",
+        "modifier": -8
       },
       {
         "type": "normal",
-        "location": "alacrity",
+        "location": "dexterity",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
         "modifier": 250
       },
       {
@@ -119,33 +129,23 @@
       },
       {
         "type": "normal",
-        "location": "critchance",
+        "location": "alacrity",
         "modifier": 250
       },
       {
         "type": "normal",
-        "location": "hp",
-        "modifier": 200
+        "location": "endurance",
+        "modifier": 500
       },
       {
         "type": "normal",
-        "location": "dexterity",
-        "modifier": 4
+        "location": "prosperity",
+        "modifier": 500
       },
       {
         "type": "normal",
-        "location": "saves",
-        "modifier": -8
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 25
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 28
+        "location": "unknown",
+        "modifier": 5000
       }
     ],
     "values": {
@@ -172,43 +172,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "alacrity",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "celerity",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "potency",
-        "modifier": 630
-      },
-      {
-        "type": "normal",
-        "location": "mana",
-        "modifier": 100
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 4
-      },
-      {
-        "type": "flag",
-        "location": "FS:none",
-        "modifier": -1, "extra": "shield:planeshift"
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -15
+        "location": "hitroll",
+        "modifier": 15
       },
       {
         "type": "normal",
@@ -217,8 +182,43 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 15
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:planeshift"
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 630
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 200
       }
     ],
     "values": {
@@ -245,33 +245,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "concentration",
-        "modifier": 450
-      },
-      {
-        "type": "normal",
-        "location": "celerity",
-        "modifier": 600
-      },
-      {
-        "type": "normal",
-        "location": "potency",
-        "modifier": 900
-      },
-      {
-        "type": "normal",
-        "location": "mana",
-        "modifier": 250
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 5
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 5
+        "location": "hitroll",
+        "modifier": 20
       },
       {
         "type": "normal",
@@ -280,8 +255,33 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 20
+        "location": "intelligence",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 900
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 600
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 450
       }
     ],
     "values": {
@@ -308,33 +308,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "saves",
-        "modifier": -5
-      },
-      {
-        "type": "normal",
-        "location": "ac",
-        "modifier": -10
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 2
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 2
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 15
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 20
+        "location": "insight",
+        "modifier": 5000
       },
       {
         "type": "normal",
@@ -343,8 +318,33 @@
       },
       {
         "type": "normal",
-        "location": "insight",
-        "modifier": 5000
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "ac",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
       }
     ],
     "values": {
@@ -370,24 +370,14 @@
     "description": "{nA sinister dagger gleams darkly here, its razor-edged blade emanating a cold, unsettling presence.{x",
     "affects": [
       {
-        "type": "normal",
-        "location": "critdamage",
-        "modifier": 225
+        "type": "flag",
+        "location": "FB:none",
+        "modifier": -1, "extra": "affect2:talon"
       },
       {
         "type": "normal",
-        "location": "critchance",
-        "modifier": 150
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -14
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 4
+        "location": "hitroll",
+        "modifier": 30
       },
       {
         "type": "normal",
@@ -396,13 +386,23 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 30
+        "location": "dexterity",
+        "modifier": 4
       },
       {
-        "type": "flag",
-        "location": "FB:none",
-        "modifier": -1, "extra": "affect2:talon"
+        "type": "normal",
+        "location": "saves",
+        "modifier": -14
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 225
       }
     ],
     "values": {
@@ -429,23 +429,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "critdamage",
-        "modifier": 500
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 3
+        "location": "damroll",
+        "modifier": 30
       },
       {
         "type": "normal",
@@ -454,8 +439,23 @@
       },
       {
         "type": "normal",
-        "location": "damroll",
-        "modifier": 30
+        "location": "strength",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 500
       }
     ],
     "values": {
@@ -482,53 +482,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "spellcast",
-        "modifier": 93, "extra": "heal"
-      },
-      {
-        "type": "normal",
-        "location": "spellcast",
-        "modifier": 73, "extra": "faerie fire"
-      },
-      {
-        "type": "normal",
-        "location": "alacrity",
-        "modifier": 350
-      },
-      {
-        "type": "normal",
-        "location": "concentration",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "mana",
-        "modifier": 215
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -25
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 15
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 15
+        "location": "celerity",
+        "modifier": 300
       },
       {
         "type": "normal",
@@ -537,8 +492,53 @@
       },
       {
         "type": "normal",
-        "location": "celerity",
-        "modifier": 300
+        "location": "damroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -25
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 215
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 350
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 73, "extra": "faerie fire"
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 93, "extra": "heal"
       }
     ],
     "values": {
@@ -565,38 +565,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 25
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 25
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 150
-      },
-      {
-        "type": "normal",
-        "location": "move",
-        "modifier": 100
-      },
-      {
-        "type": "normal",
-        "location": "recuperation",
-        "modifier": 200
+        "location": "alacrity",
+        "modifier": 400
       },
       {
         "type": "normal",
@@ -605,8 +575,38 @@
       },
       {
         "type": "normal",
-        "location": "alacrity",
-        "modifier": 400
+        "location": "recuperation",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "move",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
       }
     ],
     "values": {
@@ -633,53 +633,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "mana",
-        "modifier": 150
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -5
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 140
-      },
-      {
-        "type": "normal",
-        "location": "alacrity",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "critdamage",
-        "modifier": 100
-      },
-      {
-        "type": "normal",
-        "location": "spellcast",
-        "modifier": 43, "extra": "hellfire"
-      },
-      {
-        "type": "normal",
-        "location": "spellcast",
-        "modifier": 41, "extra": "curse"
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 5
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 5
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 20
+        "location": "potency",
+        "modifier": 750
       },
       {
         "type": "normal",
@@ -688,8 +643,53 @@
       },
       {
         "type": "normal",
-        "location": "potency",
-        "modifier": 750
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 41, "extra": "curse"
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 43, "extra": "hellfire"
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 140
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 150
       }
     ],
     "values": {
@@ -716,33 +716,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 22
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 23
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 300
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "endurance",
-        "modifier": 500
+        "location": "alacrity",
+        "modifier": 400
       },
       {
         "type": "normal",
@@ -751,8 +726,33 @@
       },
       {
         "type": "normal",
-        "location": "alacrity",
-        "modifier": 400
+        "location": "endurance",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 23
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 22
       }
     ],
     "values": {
@@ -779,28 +779,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "recuperation",
-        "modifier": 350
-      },
-      {
-        "type": "normal",
-        "location": "alacrity",
-        "modifier": 350
-      },
-      {
-        "type": "normal",
-        "location": "critdamage",
-        "modifier": 700
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 4
+        "location": "hitroll",
+        "modifier": 23
       },
       {
         "type": "normal",
@@ -809,8 +789,28 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 23
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 700
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 350
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 350
       }
     ],
     "values": {
@@ -836,34 +836,14 @@
     "description": "{nA slender band forged from interlocking bronze and silver scales, each etched with tiny scenes of contests and duels, glimmers here.{x",
     "affects": [
       {
-        "type": "normal",
-        "location": "penetration",
-        "modifier": 400
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:planeshift"
       },
       {
         "type": "normal",
-        "location": "critdamage",
-        "modifier": 830
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 300
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 250
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 3
+        "location": "hitroll",
+        "modifier": 31
       },
       {
         "type": "normal",
@@ -872,13 +852,33 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 31
+        "location": "strength",
+        "modifier": 3
       },
       {
-        "type": "flag",
-        "location": "FS:none",
-        "modifier": -1, "extra": "shield:planeshift"
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 830
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 400
       }
     ],
     "values": {
@@ -905,32 +905,12 @@
     "affects": [
       {
         "type": "normal",
-        "location": "hp",
-        "modifier": 150
+        "location": "potency",
+        "modifier": 710
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 20
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 19
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -10
-      },
-      {
-        "type": "normal",
-        "location": "recuperation",
-        "modifier": 250
-      },
-      {
-        "type": "normal",
-        "location": "concentration",
+        "location": "critchance",
         "modifier": 250
       },
       {
@@ -940,13 +920,33 @@
       },
       {
         "type": "normal",
-        "location": "critchance",
+        "location": "concentration",
         "modifier": 250
       },
       {
         "type": "normal",
-        "location": "potency",
-        "modifier": 710
+        "location": "recuperation",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 19
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 20
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 150
       }
     ],
     "values": {
@@ -972,29 +972,14 @@
     "description": "{nA pair of winged sandals fashioned from dove-white leather and burnished gold are floating here, each strap embossed with a stylized laurel leaf motif.{x",
     "affects": [
       {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 18
+        "type": "flag",
+        "location": "FA:none",
+        "modifier": -1, "extra": "affect:flying"
       },
       {
         "type": "normal",
-        "location": "damroll",
-        "modifier": 18
-      },
-      {
-        "type": "normal",
-        "location": "move",
+        "location": "alacrity",
         "modifier": 300
-      },
-      {
-        "type": "normal",
-        "location": "endurance",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -15
       },
       {
         "type": "normal",
@@ -1003,13 +988,28 @@
       },
       {
         "type": "normal",
-        "location": "alacrity",
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "move",
         "modifier": 300
       },
       {
-        "type": "flag",
-        "location": "FA:none",
-        "modifier": -1, "extra": "affect:flying"
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 18
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 18
       }
     ],
     "values": {
@@ -1035,34 +1035,9 @@
     "description": "{nA lightweight veil of dawn-tinted silk drifts like morning mist here, its threads shifting from pale rose to gold as it catches the light.{x",
     "affects": [
       {
-        "type": "flag",
-        "location": "FR:none",
-        "modifier": -1, "extra": "resist:light"
-      },
-      {
         "type": "normal",
-        "location": "potency",
-        "modifier": 900
-      },
-      {
-        "type": "normal",
-        "location": "celerity",
-        "modifier": 250
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 17
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 16
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 4
+        "location": "saves",
+        "modifier": -15
       },
       {
         "type": "normal",
@@ -1071,8 +1046,33 @@
       },
       {
         "type": "normal",
-        "location": "saves",
-        "modifier": -15
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 16
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 17
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 900
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:light"
       }
     ],
     "values": {
@@ -1098,38 +1098,8 @@
     "description": "{nA delicate circlet forged from scorched gold is resting here, its band fragmented like a sunburst struck by lightning.{x",
     "affects": [
       {
-        "type": "flag",
-        "location": "FR:none",
-        "modifier": -1, "extra": "resist:fire"
-      },
-      {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 24
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 34
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "celerity",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "concentration",
+        "location": "recuperation",
         "modifier": 450
       },
       {
@@ -1139,8 +1109,38 @@
       },
       {
         "type": "normal",
-        "location": "recuperation",
+        "location": "concentration",
         "modifier": 450
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 34
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 24
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:fire"
       }
     ],
     "values": {
@@ -1167,23 +1167,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 22
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 24
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 200
+        "location": "critdamage",
+        "modifier": 650
       },
       {
         "type": "normal",
@@ -1192,8 +1177,23 @@
       },
       {
         "type": "normal",
-        "location": "critdamage",
-        "modifier": 650
+        "location": "hp",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 24
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 22
       }
     ],
     "values": {
@@ -1220,27 +1220,22 @@
     "affects": [
       {
         "type": "normal",
-        "location": "critdamage",
-        "modifier": 1500
+        "location": "damroll",
+        "modifier": 30
       },
       {
         "type": "normal",
-        "location": "critchance",
-        "modifier": 250
+        "location": "hitroll",
+        "modifier": 30
       },
       {
         "type": "normal",
-        "location": "strength",
-        "modifier": 2
+        "location": "spellcast",
+        "modifier": 102, "extra": "lightning bolt"
       },
       {
         "type": "normal",
-        "location": "wisdom",
-        "modifier": 2
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
+        "location": "dexterity",
         "modifier": 2
       },
       {
@@ -1250,23 +1245,28 @@
       },
       {
         "type": "normal",
-        "location": "dexterity",
+        "location": "intelligence",
         "modifier": 2
       },
       {
         "type": "normal",
-        "location": "spellcast",
-        "modifier": 102, "extra": "lightning bolt"
+        "location": "wisdom",
+        "modifier": 2
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 30
+        "location": "strength",
+        "modifier": 2
       },
       {
         "type": "normal",
-        "location": "damroll",
-        "modifier": 30
+        "location": "critchance",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 1500
       }
     ],
     "values": {
@@ -1292,44 +1292,14 @@
     "description": "{nA smoky crystal sphere veined with pulsating azure light floats here, its surface roiling with shadow and cold luminescence.{x",
     "affects": [
       {
-        "type": "normal",
-        "location": "concentration",
-        "modifier": 200
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:iceshield"
       },
       {
         "type": "normal",
-        "location": "celerity",
-        "modifier": 250
-      },
-      {
-        "type": "normal",
-        "location": "potency",
-        "modifier": 1000
-      },
-      {
-        "type": "normal",
-        "location": "mana",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 300
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -14
+        "location": "hitroll",
+        "modifier": 27
       },
       {
         "type": "normal",
@@ -1338,13 +1308,43 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 27
+        "location": "saves",
+        "modifier": -14
       },
       {
-        "type": "flag",
-        "location": "FS:none",
-        "modifier": -1, "extra": "shield:iceshield"
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 200
       }
     ],
     "values": {
@@ -1370,39 +1370,9 @@
     "description": "{nTwin crystalline orbs of smoky crimson light are suspended in midair, their cracked irises swirling with a faint, sorrowful glow.{x",
     "affects": [
       {
-        "type": "flag",
-        "location": "FA:none",
-        "modifier": -1, "extra": "affect:infrared"
-      },
-      {
         "type": "normal",
-        "location": "penetration",
-        "modifier": 500
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 300
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -15
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 4
+        "location": "hitroll",
+        "modifier": 31
       },
       {
         "type": "normal",
@@ -1411,8 +1381,38 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 31
+        "location": "dexterity",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 500
+      },
+      {
+        "type": "flag",
+        "location": "FA:none",
+        "modifier": -1, "extra": "affect:infrared"
       }
     ],
     "values": {
@@ -1439,28 +1439,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "damroll",
-        "modifier": 26
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 27
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 200
+        "location": "penetration",
+        "modifier": 600
       },
       {
         "type": "normal",
@@ -1469,8 +1449,28 @@
       },
       {
         "type": "normal",
-        "location": "penetration",
-        "modifier": 600
+        "location": "hp",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 27
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 26
       }
     ],
     "values": {
@@ -1497,33 +1497,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "spellcast",
-        "modifier": 80, "extra": "energy syphon"
-      },
-      {
-        "type": "normal",
-        "location": "recuperation",
-        "modifier": 650
-      },
-      {
-        "type": "normal",
-        "location": "critdamage",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 100
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 300
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 5
+        "location": "hitroll",
+        "modifier": 25
       },
       {
         "type": "normal",
@@ -1532,8 +1507,33 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 25
+        "location": "constitution",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 650
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 80, "extra": "energy syphon"
       }
     ],
     "values": {
@@ -1560,43 +1560,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "concentration",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "celerity",
-        "modifier": 300
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -10
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "potency",
-        "modifier": 1500
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 35
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 35
+        "location": "spellcast",
+        "modifier": 72, "extra": "magic drain"
       },
       {
         "type": "normal",
@@ -1605,8 +1570,43 @@
       },
       {
         "type": "normal",
-        "location": "spellcast",
-        "modifier": 72, "extra": "magic drain"
+        "location": "hitroll",
+        "modifier": 35
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 35
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 1500
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 400
       }
     ],
     "values": {
@@ -1633,37 +1633,7 @@
     "affects": [
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 25
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 26
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "mana",
-        "modifier": 1000
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 300
-      },
-      {
-        "type": "normal",
-        "location": "celerity",
+        "location": "concentration",
         "modifier": 300
       },
       {
@@ -1673,8 +1643,38 @@
       },
       {
         "type": "normal",
-        "location": "concentration",
+        "location": "celerity",
         "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 26
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
       }
     ],
     "values": {
@@ -1701,33 +1701,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "intelligence",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "potency",
+        "location": "prosperity",
         "modifier": 1000
-      },
-      {
-        "type": "normal",
-        "location": "celerity",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -5
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 22
       },
       {
         "type": "normal",
@@ -1736,8 +1711,33 @@
       },
       {
         "type": "normal",
-        "location": "prosperity",
+        "location": "hitroll",
+        "modifier": 22
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "potency",
         "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
       }
     ],
     "values": {
@@ -1763,34 +1763,9 @@
     "description": "{nA rigid bangle carved from gleaming flowstone, etched with the Evincar of Raths regal seal and humming with the cold precision of the artificial plane's master.{x",
     "affects": [
       {
-        "type": "flag",
-        "location": "FS:none",
-        "modifier": -1, "extra": "shield:acidshield"
-      },
-      {
         "type": "normal",
-        "location": "prosperity",
-        "modifier": 2000
-      },
-      {
-        "type": "normal",
-        "location": "critdamage",
-        "modifier": 570
-      },
-      {
-        "type": "normal",
-        "location": "potency",
-        "modifier": 640
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 3
+        "location": "hitroll",
+        "modifier": 35
       },
       {
         "type": "normal",
@@ -1799,8 +1774,33 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 35
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 640
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 570
+      },
+      {
+        "type": "normal",
+        "location": "prosperity",
+        "modifier": 2000
+      },
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:acidshield"
       }
     ],
     "values": {
@@ -1826,44 +1826,9 @@
     "description": "{nA tarnished bronze chime inscribed with eldritch glyphs lies here, faintly vibrating as if tolling the world's end.{x",
     "affects": [
       {
-        "type": "flag",
-        "location": "FS:none",
-        "modifier": -1, "extra": "shield:lightningshield"
-      },
-      {
         "type": "normal",
-        "location": "endurance",
-        "modifier": 600
-      },
-      {
-        "type": "normal",
-        "location": "penetration",
-        "modifier": 500
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 280
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -15
+        "location": "hitroll",
+        "modifier": 40
       },
       {
         "type": "normal",
@@ -1872,8 +1837,43 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 40
+        "location": "saves",
+        "modifier": -15
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 280
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 600
+      },
+      {
+        "type": "flag",
+        "location": "FS:none",
+        "modifier": -1, "extra": "shield:lightningshield"
       }
     ],
     "values": {
@@ -1900,43 +1900,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "saves",
-        "modifier": -5
-      },
-      {
-        "type": "flag",
-        "location": "FR:none",
-        "modifier": -1, "extra": "resist:acid"
-      },
-      {
-        "type": "normal",
-        "location": "endurance",
-        "modifier": 500
-      },
-      {
-        "type": "normal",
-        "location": "recuperation",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "critdamage",
-        "modifier": 1500
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 150
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 3
+        "location": "hitroll",
+        "modifier": 25
       },
       {
         "type": "normal",
@@ -1945,8 +1910,43 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 25
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 1500
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 500
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:acid"
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
       }
     ],
     "values": {
@@ -1973,48 +1973,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "spellcast",
-        "modifier": 139, "extra": "weaken"
-      },
-      {
-        "type": "normal",
-        "location": "spellcast",
-        "modifier": 134, "extra": "slow"
-      },
-      {
-        "type": "normal",
-        "location": "insight",
-        "modifier": 1000
-      },
-      {
-        "type": "normal",
-        "location": "prosperity",
-        "modifier": 10000
-      },
-      {
-        "type": "normal",
-        "location": "alacrity",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -10
-      },
-      {
-        "type": "normal",
-        "location": "concentration",
-        "modifier": 500
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 4
+        "location": "hitroll",
+        "modifier": 20
       },
       {
         "type": "normal",
@@ -2023,8 +1983,48 @@
       },
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 20
+        "location": "wisdom",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "prosperity",
+        "modifier": 10000
+      },
+      {
+        "type": "normal",
+        "location": "insight",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 134, "extra": "slow"
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 139, "extra": "weaken"
       }
     ],
     "values": {
@@ -2051,33 +2051,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "penetration",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "celerity",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
-        "location": "alacrity",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 25
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 25
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 5
+        "location": "hp",
+        "modifier": 100
       },
       {
         "type": "normal",
@@ -2086,8 +2061,33 @@
       },
       {
         "type": "normal",
-        "location": "hp",
-        "modifier": 100
+        "location": "dexterity",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 400
       }
     ],
     "values": {
@@ -2114,33 +2114,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "hitroll",
-        "modifier": 25
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 25
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 5
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -10
-      },
-      {
-        "type": "normal",
-        "location": "penetration",
-        "modifier": 800
+        "location": "alacrity",
+        "modifier": 300
       },
       {
         "type": "normal",
@@ -2149,8 +2124,33 @@
       },
       {
         "type": "normal",
-        "location": "alacrity",
-        "modifier": 300
+        "location": "penetration",
+        "modifier": 800
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 25
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 25
       }
     ],
     "values": {
@@ -2177,27 +2177,12 @@
     "affects": [
       {
         "type": "normal",
-        "location": "wisdom",
-        "modifier": 2
+        "location": "alacrity",
+        "modifier": 500
       },
       {
         "type": "normal",
-        "location": "intelligence",
-        "modifier": 2
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -12
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 27
-      },
-      {
-        "type": "normal",
-        "location": "critdamage",
+        "location": "potency",
         "modifier": 2000
       },
       {
@@ -2207,13 +2192,28 @@
       },
       {
         "type": "normal",
-        "location": "potency",
+        "location": "critdamage",
         "modifier": 2000
       },
       {
         "type": "normal",
-        "location": "alacrity",
-        "modifier": 500
+        "location": "damroll",
+        "modifier": 27
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -12
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
       }
     ],
     "values": {
@@ -2240,28 +2240,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "critdamage",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 100
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 44
+        "location": "spellcast",
+        "modifier": 142, "extra": "Caines Maddness"
       },
       {
         "type": "normal",
@@ -2270,8 +2250,28 @@
       },
       {
         "type": "normal",
-        "location": "spellcast",
-        "modifier": 142, "extra": "Caines Maddness"
+        "location": "hitroll",
+        "modifier": 44
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 200
       }
     ],
     "values": {
@@ -2298,33 +2298,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "wisdom",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 30
-      },
-      {
-        "type": "normal",
-        "location": "recuperation",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "concentration",
-        "modifier": 200
-      },
-      {
-        "type": "normal",
-        "location": "endurance",
-        "modifier": 400
+        "location": "damroll",
+        "modifier": 25
       },
       {
         "type": "normal",
@@ -2333,8 +2308,33 @@
       },
       {
         "type": "normal",
-        "location": "damroll",
-        "modifier": 25
+        "location": "endurance",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
       }
     ],
     "values": {
@@ -2361,48 +2361,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "damroll",
-        "modifier": 30
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 30
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -20
-      },
-      {
-        "type": "normal",
-        "location": "ac",
-        "modifier": -14
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 2
-      },
-      {
-        "type": "normal",
-        "location": "prosperity",
-        "modifier": 150
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
-        "modifier": 115
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 3
+        "location": "insight",
+        "modifier": 1000
       },
       {
         "type": "flag",
@@ -2411,8 +2371,48 @@
       },
       {
         "type": "normal",
-        "location": "insight",
-        "modifier": 1000
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 115
+      },
+      {
+        "type": "normal",
+        "location": "prosperity",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "ac",
+        "modifier": -14
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -20
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 30
       }
     ],
     "values": {
@@ -2439,23 +2439,13 @@
     "affects": [
       {
         "type": "normal",
-        "location": "wisdom",
-        "modifier": 2
+        "location": "potency",
+        "modifier": 500
       },
       {
         "type": "normal",
-        "location": "intelligence",
-        "modifier": 2
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 19
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 29
+        "location": "critdamage",
+        "modifier": 1000
       },
       {
         "type": "flag",
@@ -2464,13 +2454,23 @@
       },
       {
         "type": "normal",
-        "location": "critdamage",
-        "modifier": 1000
+        "location": "hitroll",
+        "modifier": 29
       },
       {
         "type": "normal",
-        "location": "potency",
-        "modifier": 500
+        "location": "damroll",
+        "modifier": 19
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
       }
     ],
     "values": {
@@ -2497,28 +2497,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "spellcast",
-        "modifier": 146, "extra": "frost breath"
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 26
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 26
-      },
-      {
-        "type": "normal",
-        "location": "dexterity",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 4
+        "location": "recuperation",
+        "modifier": 300
       },
       {
         "type": "normal",
@@ -2527,8 +2507,28 @@
       },
       {
         "type": "normal",
-        "location": "recuperation",
-        "modifier": 300
+        "location": "constitution",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 26
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 26
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 146, "extra": "frost breath"
       }
     ],
     "values": {
@@ -2555,48 +2555,8 @@
     "affects": [
       {
         "type": "normal",
-        "location": "spellcast",
-        "modifier": 126, "extra": "trembling earth"
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 30
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 30
-      },
-      {
-        "type": "normal",
-        "location": "strength",
-        "modifier": 4
-      },
-      {
-        "type": "normal",
-        "location": "constitution",
-        "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "critdamage",
-        "modifier": 125
-      },
-      {
-        "type": "normal",
-        "location": "penetration",
+        "location": "concentration",
         "modifier": 50
-      },
-      {
-        "type": "normal",
-        "location": "hp",
-        "modifier": 110
-      },
-      {
-        "type": "normal",
-        "location": "endurance",
-        "modifier": 100
       },
       {
         "type": "normal",
@@ -2605,8 +2565,48 @@
       },
       {
         "type": "normal",
-        "location": "concentration",
+        "location": "endurance",
+        "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 110
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
         "modifier": 50
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 125
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 126, "extra": "trembling earth"
       }
     ],
     "values": {
@@ -2633,27 +2633,7 @@
     "affects": [
       {
         "type": "normal",
-        "location": "damroll",
-        "modifier": 23
-      },
-      {
-        "type": "normal",
-        "location": "saves",
-        "modifier": -10
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 2
-      },
-      {
-        "type": "normal",
-        "location": "wisdom",
-        "modifier": 2
-      },
-      {
-        "type": "normal",
-        "location": "critchance",
+        "location": "celerity",
         "modifier": 100
       },
       {
@@ -2663,8 +2643,28 @@
       },
       {
         "type": "normal",
-        "location": "celerity",
+        "location": "critchance",
         "modifier": 100
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 23
       }
     ],
     "values": {
