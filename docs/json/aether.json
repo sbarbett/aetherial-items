@@ -79,6 +79,74 @@
     }
   },
   {
+    "vnum": 99909,
+    "name": "griffon guard vambraces",
+    "type": "armor",
+    "level": 126,
+    "wear_flags": "take arms",
+    "extra_flags": "burnproof no_restring",
+    "material": "steel",
+    "condition": 100,
+    "weight": 4,
+    "cost": 700,
+    "short_descr": "{y^{Y^{D_ {WG{wr{Wi{wf{Wf{wo{Wn {GG{gu{Ga{gr{Gd {DVambraces _{Y^{y^{x",
+    "description": "{nA matched pair of steel vambraces, etched with a rearing Midgaardian griffon, lies abandoned in the dust.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "unknown",
+        "modifier": 1500
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 26
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 26
+      }
+    ],
+    "values": {
+      "ac_pierce": 26,
+      "ac_bash": 26,
+      "ac_slash": 24,
+      "ac_exotic": 25,
+      "v4": 0
+    }
+  },
+  {
     "vnum": 99908,
     "name": "lockes bandana",
     "type": "clothing",
