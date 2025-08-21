@@ -202,7 +202,8 @@ class ItemViewer {
             'endurance': 'Endurance',
             'prosperity': 'Prosperity',
             'alacrity': 'Alacrity',
-            'conc': 'Concentration'
+            'conc': 'Concentration',
+            'bounty': 'Bounty'
         };
         
         return statMap[stat] || stat.charAt(0).toUpperCase() + stat.slice(1);
@@ -214,7 +215,7 @@ class ItemViewer {
         const positiveStats = ['hitroll', 'damroll', 'strength', 'dexterity', 'constitution', 
                              'intelligence', 'wisdom', 'hp', 'mana', 'move', 'resistance', 
                              'crit_chance', 'crit_damage', 'penetration', 'insight', 'celerity', 
-                             'recup', 'endurance', 'prosperity', 'alacrity', 'conc'];
+                             'recup', 'endurance', 'prosperity', 'alacrity', 'conc', 'bounty'];
         
         const negativeStats = ['ac', 'saves'];
         

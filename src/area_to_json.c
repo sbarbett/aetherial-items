@@ -156,6 +156,7 @@ static const char *affect_location_table[] = {
     "celerity", 
     "potency", 
     "savingpara", 
+    "bounty",
     NULL
 };
 
