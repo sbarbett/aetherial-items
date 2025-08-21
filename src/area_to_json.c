@@ -225,7 +225,7 @@ void bitfield_to_names(int bits, const char **table, char *out, size_t outlen) {
 
 // Helper: affect location name
 const char *affect_location_name(int loc) {
-    if (loc >= 0 && loc < 39 && affect_location_table[loc])
+    if (loc >= 0 && loc < 41 && affect_location_table[loc])
         return affect_location_table[loc];
     return "unknown";
 }
