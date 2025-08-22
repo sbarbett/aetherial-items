@@ -701,6 +701,94 @@
     }
   },
   {
+    "vnum": 90032,
+    "name": "meridian owl",
+    "type": "treasure",
+    "level": 126,
+    "wear_flags": "take familiar",
+    "extra_flags": "glow hum magic burnproof no_restring",
+    "material": "feathers",
+    "condition": 100,
+    "weight": 4,
+    "cost": 700,
+    "short_descr": "{Y-{l.{L^{l.{Y- {nMe{Nri{Wd{Yi{Wan {sOwl {Y-{l.{L^{l.{Y-{x",
+    "description": "{nA quiet owl regards you calmly, half lit, half shadowed, as if caught between sunrise and sunset.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 70, "extra": "splinter storm"
+      },
+      {
+        "type": "normal",
+        "location": "spellcast",
+        "modifier": 69, "extra": "entangle"
+      },
+      {
+        "type": "normal",
+        "location": "insight",
+        "modifier": 1500
+      },
+      {
+        "type": "normal",
+        "location": "endurance",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "move",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 22
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 18
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
     "vnum": 90031,
     "name": "griffon guard vambraces",
     "type": "armor",
