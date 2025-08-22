@@ -2041,6 +2041,26 @@
     "affects": [
       {
         "type": "normal",
+        "location": "prosperity",
+        "modifier": 8000
+      },
+      {
+        "type": "normal",
+        "location": "insight",
+        "modifier": 2500
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "bounty",
+        "modifier": 2500
+      },
+      {
+        "type": "normal",
         "location": "spellcast",
         "modifier": 139, "extra": "weaken"
       },
@@ -2051,33 +2071,8 @@
       },
       {
         "type": "normal",
-        "location": "insight",
-        "modifier": 1000
-      },
-      {
-        "type": "normal",
-        "location": "prosperity",
-        "modifier": 10000
-      },
-      {
-        "type": "normal",
-        "location": "alacrity",
-        "modifier": 400
-      },
-      {
-        "type": "normal",
         "location": "saves",
         "modifier": -10
-      },
-      {
-        "type": "normal",
-        "location": "concentration",
-        "modifier": 500
-      },
-      {
-        "type": "normal",
-        "location": "intelligence",
-        "modifier": 4
       },
       {
         "type": "normal",
