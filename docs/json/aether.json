@@ -701,6 +701,79 @@
     }
   },
   {
+    "vnum": 90033,
+    "name": "light dawn",
+    "type": "light",
+    "level": 126,
+    "wear_flags": "take nosac",
+    "extra_flags": "glow magic burnproof no_restring",
+    "material": "light",
+    "condition": 100,
+    "weight": 2,
+    "cost": 650,
+    "short_descr": "{n>{No{n< {WThe {YLight {Wof {bD{Ba{Cy{cbr{we{Wak{x {n>{No{n<{x",
+    "description": "{nA narrow blade of morning light cuts the gloom, turning dew to sparks.{x",
+    "affects": [
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": 0, "extra": "resist:holy"
+      },
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "celerity",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 1200
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 300
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 4
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 28
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 22
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": -1,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
     "vnum": 90032,
     "name": "meridian owl",
     "type": "treasure",
