@@ -701,6 +701,79 @@
     }
   },
   {
+    "vnum": 90037,
+    "name": "always open mouth",
+    "type": "treasure",
+    "level": 126,
+    "wear_flags": "take tongue",
+    "extra_flags": "dark evil magic burnproof no_restring",
+    "material": "void",
+    "condition": 100,
+    "weight": 9,
+    "cost": 700,
+    "short_descr": "{D({p>{P>{p< {DThe {WA{wl{Ww{wa{Wy{ws{D-{mOpen {LM{Go{Lu{Gt{Lh {p>{P<{p<{D){x",
+    "description": "{nA coin-sized, pitch-black aperture hangs here, eating light and sound.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "constitution",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 3
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 30
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 2500
+      },
+      {
+        "type": "normal",
+        "location": "move",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 1000
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
     "vnum": 90036,
     "name": "dusks gloom",
     "type": "treasure",
