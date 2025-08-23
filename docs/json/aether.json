@@ -716,6 +716,16 @@
     "affects": [
       {
         "type": "normal",
+        "location": "damroll",
+        "modifier": 23
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 23
+      },
+      {
+        "type": "normal",
         "location": "constitution",
         "modifier": 3
       },
@@ -738,16 +748,6 @@
         "type": "normal",
         "location": "strength",
         "modifier": 3
-      },
-      {
-        "type": "normal",
-        "location": "damroll",
-        "modifier": 30
-      },
-      {
-        "type": "normal",
-        "location": "hitroll",
-        "modifier": 30
       },
       {
         "type": "normal",
