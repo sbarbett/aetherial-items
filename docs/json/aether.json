@@ -701,6 +701,84 @@
     }
   },
   {
+    "vnum": 90035,
+    "name": "twilight ankh",
+    "type": "treasure",
+    "level": 126,
+    "wear_flags": "take hold",
+    "extra_flags": "hum dark burnproof no_restring",
+    "material": "steel",
+    "condition": 100,
+    "weight": 3,
+    "cost": 650,
+    "short_descr": "{W[{b.{B:{Y* {tThe {sT{Ww{si{Wl{si{Wg{sh{Wt {TAnkh {Y*{B:{b.{W]{x",
+    "description": "{nA hallowed umbral ankh rests here, its edges trimmed in cold shadow.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "concentration",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 150
+      },
+      {
+        "type": "normal",
+        "location": "mana",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "wisdom",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "intelligence",
+        "modifier": 2
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 11
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 19
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -5
+      },
+      {
+        "type": "normal",
+        "location": "potency",
+        "modifier": 900
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:negative"
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
     "vnum": 90034,
     "name": "tabard absolution",
     "type": "clothing",
