@@ -701,6 +701,74 @@
     }
   },
   {
+    "vnum": 90034,
+    "name": "tabard absolution",
+    "type": "clothing",
+    "level": 126,
+    "wear_flags": "take about",
+    "extra_flags": "glow hum burnproof no_restring",
+    "material": "sunweave",
+    "condition": 100,
+    "weight": 2,
+    "cost": 650,
+    "short_descr": "{r|{pX{R.{r| {yT{Da{yb{Da{yr{Dd {Wof {BA{Cb{Ws{Bo{Cl{Wu{Bt{Ci{Wo{Bn {r|{R.{pX{r|{x",
+    "description": "{nA sunwashed tabard is draped here, its fabric brightening and dimming like a slow breath.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 18
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 15
+      },
+      {
+        "type": "normal",
+        "location": "recuperation",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 1000
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "hp",
+        "modifier": 500
+      },
+      {
+        "type": "normal",
+        "location": "saves",
+        "modifier": -10
+      },
+      {
+        "type": "normal",
+        "location": "strength",
+        "modifier": 5
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:holy"
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
     "vnum": 90033,
     "name": "light dawn",
     "type": "light",
