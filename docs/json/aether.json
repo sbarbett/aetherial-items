@@ -701,6 +701,74 @@
     }
   },
   {
+    "vnum": 90036,
+    "name": "dusks gloom",
+    "type": "treasure",
+    "level": 126,
+    "wear_flags": "take wearfloat",
+    "extra_flags": "glow dark burnproof no_restring",
+    "material": "darkness",
+    "condition": 100,
+    "weight": 2,
+    "cost": 650,
+    "short_descr": "{D_{T-{D_ {tDusk{W'{ts {DG{Wlo{wo{Dm {D_{T-{D_{x",
+    "description": "{nA thin vein of dusk drinks the light, turning sparks to dew.{x",
+    "affects": [
+      {
+        "type": "normal",
+        "location": "alacrity",
+        "modifier": 250
+      },
+      {
+        "type": "normal",
+        "location": "penetration",
+        "modifier": 400
+      },
+      {
+        "type": "normal",
+        "location": "critdamage",
+        "modifier": 900
+      },
+      {
+        "type": "normal",
+        "location": "critchance",
+        "modifier": 200
+      },
+      {
+        "type": "normal",
+        "location": "dexterity",
+        "modifier": 5
+      },
+      {
+        "type": "normal",
+        "location": "damroll",
+        "modifier": 17
+      },
+      {
+        "type": "normal",
+        "location": "hitroll",
+        "modifier": 18
+      },
+      {
+        "type": "normal",
+        "location": "ac",
+        "modifier": -15
+      },
+      {
+        "type": "flag",
+        "location": "FR:none",
+        "modifier": -1, "extra": "resist:cold"
+      }
+    ],
+    "values": {
+      "v0": 0,
+      "v1": 0,
+      "v2": 0,
+      "v3": 0,
+      "v4": 0
+    }
+  },
+  {
     "vnum": 90035,
     "name": "twilight ankh",
     "type": "treasure",
